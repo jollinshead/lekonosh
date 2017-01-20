@@ -16,16 +16,26 @@
 </head>
 
 <body>
-<embed
+<!--<embed
         id="SomeName"
-        type="application/x-java-applet;version=1.8"
         width="999" height="999"
         archive="People-Generator.jar"
-        code="main.class"
+        code="AppletBasic.class"
         pluginspage="http://java.com/download/"
         myParam="YourParams" >
 
-</embed>
+</embed>-->
+<object width="999" height="999" classid="clsid:8AD9C840-044E-11D1-B3E9-00805F499D93"
+        codebase="http://java.sun.com/products/plugin/autodl/jinstall-1_4-windows-i586.cab#Version=1,4,0,0">
+    <param name="code" value="AppletBasic"/>
+    <param name="archive" value="People-Generator.jar"/>
+    <!--[if !IE]> -->
+    <object width="999" height="999" type="application/x-java-applet">
+        <param name="code" value="AppletBasic"/>
+        <param name="archive" value="People-Generator.jar"/>
+    </object>
+    <!-- <![endif]-->
+</object>
 <script src="js/scripts.js"></script>
 </body>
 </html>
