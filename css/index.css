@@ -1,0 +1,29 @@
+body {
+    height:100%;
+    width:100%;
+    margin:0;padding:0;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.item {
+    width:20%;
+    height:100%;
+    float:left;
+    background-color:#ddd;
+}
+
+
+.content {
+    background-color: #ffffff;
+    position:relative;
+}
+
+.selected {
+    background:#ffffff;
+    font-weight:700;
+}
+
+.clear {
+    clear:both;
+}
