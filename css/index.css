@@ -87,7 +87,6 @@ iframe {
 }
 
 .scaleable-wrapper {
-    /*padding: 20px;*/
     resize: both;
     position: relative;
 }
