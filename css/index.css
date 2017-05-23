@@ -19,8 +19,8 @@ a {
     transform-origin: right top;
     transform: translate(-90%, 200%) rotate(270deg);
     font-family: Arial, sans-serif;
-    font-size: 23px;
-    font-size: 2.2vw;
+    font-size: 22px;
+    font-size: 2.1vw;
     z-index: 999;
 }
 
@@ -35,8 +35,8 @@ a {
 }
 
 .img-title {
-    font-size: 1.8em;
-    font-size: 1.8vw;
+    font-size: 1.7em;
+    font-size: 1.7vw;
 
 }
 
@@ -51,8 +51,8 @@ a {
 }
 
 .img-desc {
-    font-size: 1.4px;
-    font-size: 1.4vw;
+    font-size: 1.3px;
+    font-size: 1.3vw;
 }
 
 .hidden-link {
@@ -115,7 +115,7 @@ iframe {
 }
 
 .thumbnail {
-    height: 50px;
+    height: 60px;
     overflow: hidden;
     outline: none;
 }
