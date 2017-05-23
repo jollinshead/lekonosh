@@ -19,17 +19,17 @@ a {
     transform-origin: right top;
     transform: translate(-90%, 200%) rotate(270deg);
     font-family: Arial, sans-serif;
-    font-size: 25px;
-    font-size: 2.3vw;
+    font-size: 23px;
+    font-size: 2.2vw;
     z-index: 999;
 }
 
 #Home {
     position: fixed;
-    left: 2%;
-    top: 2%;
-    min-width: 7%;
-    max-width: 7%;
+    left: 3%;
+    top: 3%;
+    min-width: 4%;
+    max-width: 4%;
     height:auto;
     display: none;
 }
@@ -105,8 +105,9 @@ iframe {
 .collage {
     top: 20%;
     position: absolute;
-    width: 20%;
-    right: 10%;
+    width: 50%;
+    left: 25%;
+    padding: 1%;
 }
 
 .thumbnail:hover {
